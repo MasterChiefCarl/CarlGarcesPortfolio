@@ -1,6 +1,6 @@
 body {
 
-  background-image: url('https://res.cloudinary.com/arnellebalane/image/upload/v1632525393/html-css-workshop/gradient-bg_gxrhv1.png');
+  background-image: url('https://www.teahub.io/photos/full/103-1038196_white-material-android-wallpaper-hd.jpg');
   background-repeat: no-repeat;
   background-position-x: right;
   background-attachment: fixed;
@@ -10,6 +10,48 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 18px;
   line-height: 28px;
+}
+.site-logo:hover,
+.site-logo:focus {
+  color: #f59e0b;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #f59e0b;
+}
+.section a:hover,
+.section a:focus {
+  color: #f59e0b;
+}
+.banner-attribution a:hover,
+.banner-attribution a:focus {
+  color: #f59e0b;
+}
+
+.contact-section .email-button:hover,
+.contact-section .email-button:focus {
+  color: #ffffff;
+  background-color: #f59e0b;
+}
+
+.social-links a:hover,
+.social-links a:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.about-section p:first-of-type {
+  margin-top: 0;
+}
+
+.about-section p:last-of-type {
+  margin-bottom: 0;
+}
+
+.work:last-child {
+  margin-bottom: 0;
+}
+
+.social-links a:last-child {
+  margin-bottom: 0;
 }
 
 .intro-section {
@@ -145,3 +187,53 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+.site-logo {
+  transition-property: color;
+  transition-duration: 200ms;
+}
+
+.site-nav a {
+  transition-property: color;
+  transition-duration: 200ms;
+}
+
+.banner-attribution a {
+  transition-property: color;
+  transition-duration: 200ms;
+}
+
+.section a {
+  transition-property: color;
+  transition-duration: 200ms;
+}
+
+.contact-section .email-button {
+  transition-property: background-color, color;
+  transition-duration: 200ms, 200ms;
+}
+
+.social-links a {
+  transition-property: background-color;
+  transition-duration: 200ms;
+}
+
+@keyframes change-colors {
+  0% {
+    color: #7c3aed;
+  }
+
+  50% {
+    color: #f59e0b;
+  }
+
+  100% {
+    color: #7c3aed;
+  }
+}
+
+.intro-section .highlight-name {
+  animation-name: change-colors;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
