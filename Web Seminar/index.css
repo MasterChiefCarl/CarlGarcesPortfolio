@@ -1,50 +1,46 @@
 body {
-    margin: 0;
-      
-    background-color: gainsboro;
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    line-height: 28px;
-    color: #1f2937;
-  }
-  
-  .intro-section {
-    max-width: 1000px;
-    padding: 0px 24px;
-    margin: 150px auto;
+  margin: 0;
 
-    text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
 }
-  .intro-section h1 {
-    font-size: 48px;
-    line-height: 58px;
-    color: #4b5563;
-  }
-  .intro-section .highlight-name {
-    display: inline;
-    color: orangered;
-  }
-  
-  
-  
-  
 
-  
+.intro-section {
+  max-width: 1000px;
+  padding: 0 24px;
+  margin: 150px auto;
 
-  .section {
-    max-width: 760px;
-    padding: 0px 24px;
-    margin: 150px auto;
-  }
-  .section h2 {
-    margin-bottom: 42px;
-  
-    font-size: 32px;
-    line-height: 42px;
-    text-align: center;
-    color: #4b5563;
-  }
-  .about-section h2 {
+  text-align: center;
+}
+
+.intro-section h1 {
+  font-size: 48px;
+  line-height: 58px;
+  color: #4b5563;
+}
+
+.intro-section .highlight-name {
+  display: block;
+  color: #7c3aed;
+}
+
+.section {
+  max-width: 760px;
+  padding: 0 24px;
+  margin: 150px auto;
+}
+
+.section h2 {
+  margin-bottom: 42px;
+
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  color: #4b5563;
+}
+
+.about-section h2 {
   display: none;
 }
 
@@ -55,15 +51,17 @@ body {
 
   background-color: #f9fafb;
 }
+
 .work-title {
-  margin: 0px;
+  margin: 0;
 
   font-size: 18px;
   font-weight: normal;
   line-height: 28px;
 }
+
 .work-dates {
-  margin: 0px;
+  margin: 0;
 
   font-size: 14px;
   line-height: 24px;
@@ -71,9 +69,8 @@ body {
 }
 
 .work-description {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
-
 
 .contact-section {
   max-width: 712px;
@@ -123,9 +120,3 @@ body {
 
   color: #4b5563;
 }
-  
-
-
-  strong {
-    display: inline-block;
-  }
