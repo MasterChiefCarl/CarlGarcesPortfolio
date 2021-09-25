@@ -1,4 +1,10 @@
 body {
+
+  background-image: url('https://res.cloudinary.com/arnellebalane/image/upload/v1632525393/html-css-workshop/gradient-bg_gxrhv1.png');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-attachment: fixed;
+  
   margin: 0;
 
   font-family: 'Inter', sans-serif;
@@ -21,8 +27,14 @@ body {
 }
 
 .intro-section .highlight-name {
-  display: block;
-  color: #7c3aed;
+  display: inline;
+  color: orangered;
+}
+.intro-section img {
+  width: 130px;
+  height: 130px;
+  border: 8px solid #ede9fe;
+  border-radius: 50%;
 }
 
 .section {
@@ -47,9 +59,12 @@ body {
 .work {
   padding: 32px 42px;
   margin-bottom: 32px;
-  border-radius: 5px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 15px;
 
-  background-color: #f9fafb;
+  background-color: #ffffffd7;
+  
 }
 
 .work-title {
@@ -76,11 +91,13 @@ body {
   max-width: 712px;
   padding-top: 56px;
   padding-bottom: 56px;
-  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 15px;
 
   text-align: center;
   color: #ffffff;
-  background-image: linear-gradient(to bottom right, #8b5cf6, #5b21b6);
+  background-image: linear-gradient(to bottom right, #ffd000, #c9a400);
 }
 
 .contact-section h2 {
@@ -104,13 +121,13 @@ body {
   border-radius: 5px;
 
   font-weight: bold;
-  color: #7c3aed;
+  color: orange;
   background-color: #ffffff;
 }
 
 .site-footer {
   padding: 42px 24px;
-
+  
   text-align: center;
   background-color: #f9fafb;
 }
@@ -119,4 +136,12 @@ body {
   margin: 0;
 
   color: #4b5563;
+}
+
+.banner-image {
+  height: 240px;
+
+  background-image: url('https://res.cloudinary.com/arnellebalane/image/upload/v1632525395/html-css-workshop/banner_tirxkp.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 }
