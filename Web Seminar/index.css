@@ -8,77 +8,121 @@ body {
     color: #1f2937;
   }
   
-  h1 {
+  .intro-section {
+    max-width: 1000px;
+    padding: 0px 24px;
+    margin: 150px auto;
+
+    text-align: center;
+}
+  .intro-section h1 {
     font-size: 48px;
     line-height: 58px;
     color: #4b5563;
   }
-  
-  h1 span {
-    margin: 0;
-    display:inline;
+  .intro-section .highlight-name {
+    display: inline;
     color: orangered;
   }
   
-  h2 {
+  
+  
+  
+
+  
+
+  .section {
+    max-width: 760px;
+    padding: 0px 24px;
+    margin: 150px auto;
+  }
+  .section h2 {
     margin-bottom: 42px;
-    text-align: center;
+  
     font-size: 32px;
     line-height: 42px;
+    text-align: center;
     color: #4b5563;
   }
-  
-  h3 {
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-  }
+  .about-section h2 {
+  display: none;
+}
 
-  div {
-    max-width: 1000px;
-  
-    padding-left: 24px;
-    padding-right: 24px;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    margin-left: auto;
-    margin-right: auto;
-  
-    text-align: center;
-  }
-  section {
-    max-width: 760px;
-  
-    padding-left: 24px;
-    padding-right: 24px;
-    margin-top: 150px;
-    margin-bottom: 150px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  article {
-    padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 42px;
-    padding-right: 42px;
-    margin-bottom: 32px;
-    border-radius: 15px;
+.work {
+  padding: 32px 42px;
+  margin-bottom: 32px;
+  border-radius: 5px;
 
-    background-color: #f9fafb;
-  }
-  footer {
-    padding-top: 42px;
-    padding-bottom: 42px;
-    padding-left: 24px;
-    padding-right: 24px;
+  background-color: #f9fafb;
+}
+.work-title {
+  margin: 0px;
 
-    text-align: center;
-    background-color: #f9fafb;
-  }
-  footer p {
-    margin-top: 0; margin-bottom: 0;
-    color: orangered;
-  }
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 28px;
+}
+.work-dates {
+  margin: 0px;
+
+  font-size: 14px;
+  line-height: 24px;
+  color: #4b5563;
+}
+
+.work-description {
+  margin-bottom: 0px;
+}
+
+
+.contact-section {
+  max-width: 712px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  border-radius: 5px;
+
+  text-align: center;
+  color: #ffffff;
+  background-image: linear-gradient(to bottom right, #8b5cf6, #5b21b6);
+}
+
+.contact-section h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+
+  color: #ffffff;
+}
+
+.contact-section p {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-section .email-button {
+  display: inline-block;
+  padding: 14px 42px;
+  margin-top: 56px;
+  margin-bottom: 0;
+  border-radius: 5px;
+
+  font-weight: bold;
+  color: #7c3aed;
+  background-color: #ffffff;
+}
+
+.site-footer {
+  padding: 42px 24px;
+
+  text-align: center;
+  background-color: #f9fafb;
+}
+
+.site-footer p {
+  margin: 0;
+
+  color: #4b5563;
+}
   
 
 
