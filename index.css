@@ -218,6 +218,12 @@ body {
   color: white;
 }
 
+.banner-image .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .banner-image2 {
   height: 360px;
   background-image: url('https://c.tenor.com/JOjnzQ_E0OsAAAAC/wallpaper-anime.gif');
