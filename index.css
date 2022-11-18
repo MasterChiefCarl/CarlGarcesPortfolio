@@ -1,3 +1,23 @@
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
 body {
   background-image: url('assets/wallpapers/android-material-bg.jpg');
   background-repeat: no-repeat;
@@ -170,7 +190,8 @@ body {
   border-radius: 15px;
   text-align: center;
   color: #ffffff;
-  background-image: linear-gradient(to bottom right, #ffbb00, #ffae00)
+  background-color: white;
+  /* background-image: linear-gradient(to bottom right, #ffbb00, #ffae00) */
 }
 
 .contact-section h2 {
@@ -192,12 +213,15 @@ body {
   border-radius: 5px;
   font-weight: bold;
   color: orange;
-  background-color: #ffffff
+  background-color: black
 }
 
 .site-footer {
+  position: sticky;
   padding: 42px 24px;
   text-align: center;
+  width: 100vw - 2vw;
+  max-height: 100px;
   background-color: #f9fafb
 }
 
