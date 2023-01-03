@@ -103,6 +103,7 @@ body {
 
 .intro-section {
   background-image: url('assets/gif/welcome-ani.gif');
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
