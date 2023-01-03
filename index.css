@@ -19,11 +19,14 @@
 }
 
 body {
-  background: url(assets/gif/welcome-ani.gif) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-image: url('assets/wallpapers/android-material-bg.jpg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-attachment: fixed;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 28px
 }
 
 .site-logo:hover,
@@ -99,6 +102,7 @@ body {
 }
 
 .intro-section {
+  background-image: url('assets/gif/welcome-ani.gif');
   display: flex;
   align-items: center;
   justify-content: center;
