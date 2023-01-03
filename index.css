@@ -103,7 +103,7 @@ body {
 
 .intro-section {
   background-image: url('assets/gif/welcome-ani.gif');
-  background-size:100%;
+  background-size: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -232,8 +232,8 @@ body {
 }
 
 .banner-image {
-  height: 360px;
-  background-image: url('assets/gif/jean.gif');
+  height: 70vh;
+  background-color: white;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
