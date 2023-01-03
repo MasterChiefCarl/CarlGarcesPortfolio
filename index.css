@@ -232,18 +232,18 @@ body {
 
 .banner-image {
   height: 70vh;
-  filter: blur(2px);
-  background-image: url('assets/gif/proglang-ani.gif');
-  /* background-color: white; */
+  /* filter: blur(2px);
+  background-image: url('assets/gif/proglang-ani.gif'); */
+  background-color: white;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
-.banner-image img{
+/* .banner-image img{
   filter:none !important;
-}
+} */
 
 .banner-image2 {
   height: 360px;
