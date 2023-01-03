@@ -259,6 +259,13 @@ h4 {
   background-attachment: fixed
 }
 
+.banner-image3 {
+  height: 360px;
+  background-image: url('https://c.tenor.com/JOjnzQ_E0OsAAAAC/wallpaper-anime.gif');
+  background-size: cover;
+  background-attachment: fixed
+}
+
 .site-logo {
   transition-property: color;
   transition-duration: 200ms
