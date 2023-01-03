@@ -242,7 +242,7 @@ body {
   justify-content: space-evenly;
 }
 .banner-image img{
-  filter:blur(0px);
+  filter:none !important;
 }
 
 .banner-image2 {
