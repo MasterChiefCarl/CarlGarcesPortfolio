@@ -311,5 +311,6 @@ body {
 
 .embedded-vid {
   height: 50vh;
-  width: 100vw ;
+  min-width: 60vw;
+  max-width: 100vw ;
 }
