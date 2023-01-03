@@ -314,3 +314,8 @@ body {
   min-width: 60vw;
   max-width: 100vw ;
 }
+
+.embedded-vid iframe{
+  height: 100%;
+  width: 100%;
+}
