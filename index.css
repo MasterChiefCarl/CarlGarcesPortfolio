@@ -233,23 +233,12 @@ body {
 
 .banner-image {
   height: 360px;
-  background-image: url('assets/gif/jean.gif');
+  background-image: url('assets/gif/proglang-ani.gif');
   background-size: cover;
   background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-}
-
-.banner-image h1,
-h4 {
-  color: white;
-}
-
-.banner-image .icons {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
 .banner-image2 {
