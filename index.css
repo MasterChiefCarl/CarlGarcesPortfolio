@@ -308,3 +308,8 @@ body {
   animation-duration: 3s;
   animation-iteration-count: infinite
 }
+
+.embedded-vid {
+  max-height: 27vh;
+  max-width: 48vw ;
+}
