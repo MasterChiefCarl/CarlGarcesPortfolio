@@ -192,7 +192,6 @@ body {
   text-align: center;
   color: #ffffff;
   background-color: white;
-  /* background-image: linear-gradient(to bottom right, #ffbb00, #ffae00) */
 }
 
 .contact-section h2 {
@@ -233,7 +232,10 @@ body {
 
 .banner-image {
   height: 70vh;
-  background-color: white;
+  filter: blur(2px);
+  background-image: url('assets/gif/proglang-ani.gif');
+
+  /* background-color: white; */
   background-size: cover;
   background-attachment: fixed;
   display: flex;
