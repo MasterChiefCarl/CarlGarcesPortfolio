@@ -133,7 +133,7 @@ body {
 }
 
 .section {
-  max-width: 760px;
+  max-width: 90vw;
   padding: 0 24px;
   margin: 150px auto
 }
@@ -233,7 +233,7 @@ body {
 
 .banner-image {
   height: 360px;
-  background-image: url('assets/gif/proglang-ani.gif');
+  background-image: url('assets/gif/jean.gif');
   background-size: cover;
   background-attachment: fixed;
   display: flex;
