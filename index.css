@@ -325,7 +325,7 @@ body {
 }
 
 .embedded-vid {
-  height: 55vh;
+  height: 50vh;
   min-width: 60vw;
   max-width: 100vw;
   display: flex;
