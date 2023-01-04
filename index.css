@@ -28,7 +28,17 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
-  line-height: 28px
+  line-height: 28px;
+  user-select: none;
+  /* supported by Chrome and Opera */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+
 }
 
 .site-logo:hover,
@@ -138,8 +148,8 @@ body {
 }
 
 .section {
-  max-width: 75vw;
-  padding: 0 24px;
+  max-width: 65vw;
+  padding: 0 25px;
   margin: 150px auto
 }
 
@@ -244,7 +254,8 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
-.banner-image img{
+
+.banner-image img {
   max-height: 45vh;
   padding: 0.3vh;
 }
@@ -316,16 +327,15 @@ body {
 .embedded-vid {
   height: 55vh;
   min-width: 60vw;
-  max-width: 100vw ;
+  max-width: 100vw;
   display: flex;
   justify-content: center;
 }
 
 .embedded-vid iframe,
-.embedded-vid img{
-  object-fit: cover;
+.embedded-vid img {
+  object-fit: fill;
   height: 100%;
-  width:75%;
+  width: 75%;
   /* width: 100%; */
 }
-
