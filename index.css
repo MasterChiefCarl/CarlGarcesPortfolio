@@ -161,8 +161,12 @@ body {
   color: #212121
 }
 
-.about-section h2 {
-  /* display: none */
+.section h2 {
+  margin-bottom: 42px;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: #212121
 }
 
 .work {
